@@ -17,4 +17,3 @@ for i in range(30):
         promedios.append(prom)
 
 print(promedios)
- 

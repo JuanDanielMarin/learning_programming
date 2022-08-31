@@ -16,3 +16,12 @@ stats = {
 
 print(stats)
 
+def argumentos(*args):
+    print(args)
+
+argumentos('Hola', 2, True)
+
+def kwargumentos(**kwargs):
+    print(kwargs)
+
+kwargumentos(nombre="Juan", edad=5)
